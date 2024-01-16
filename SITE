@@ -1,0 +1,125 @@
+<html>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;        }
+         body{
+            background: #081b29;
+
+        }
+        .header{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 10%;
+            background: #081b29;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo{
+            font-size: 30px;
+            color: WHITE;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .navbar a{
+            font-size: 21px;
+            color: WHITE;
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 40px;
+        }
+        .navbar a:hover,.navbar a:hover{
+            color: lightskyblue;
+        }
+        .home{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            padding: 0 10%;
+        }
+        .home-content {
+            background: #081b29;
+            max-width: 600PX;
+        }
+         .home-content h1 {
+          font-size: 53px;
+            font-weight: 700;
+            line-height: 1.2;
+            color: wheat;
+        }
+          .home-content h3 {
+          font-size: 30px;
+            font-weight: 700;
+            color : #00abf0 ;
+        }
+
+          .home-content p {
+          font-size: 16px;
+          margin: 25px;
+          color : whitesmoke;
+          font-size: 21px;
+            
+        }
+
+         .home-content .btn-box {
+            display: flex;
+        width: 345px;
+        height: 50px;
+        background-color: #081b29;
+        justify-content: space-between;
+            
+        }
+        .btn-box a:nth-child(0){
+            background: transparent;
+            color: #00abf0;
+        }
+        .btn-box a{
+            width: 150px;
+            height: 100%;
+            background-color: #00abf0;
+            border: 2px solid #00abf0;
+            border-radius:8px;
+            font-size: 19px;
+            color: #081b29;
+            text-decoration: none;
+            font-weight: 600;
+            letter-spacing: 1px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        </style>
+    <body>
+        <header class="header">
+            <a href="#" class="logo">SANLAM.</a>
+            <nav class="navbar"> 
+            <a href="#">ABOUT</a>
+            <a href="#">SERVICES</a>
+            <a href="#">HELP</a>
+            <a href="#">CONTACT</a>
+        </nav>
+
+        </header>
+        <section class="home">
+            <div class="home-content">
+                <h1>HI , IAM JICOB STEVEN</h1>
+
+                <h3>WEB DEVELOPER , AND DESGINER UX</h3>
+
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde ipsum tenetur corporis asperiores! Aperiam reiciendis ipsa voluptates sed, alias, incidunt quos rerum dignissimos repellendus doloribus perspiciatis, accusamus aspernatur rem totam.</p>
+           <div class="btn-box">
+
+             <a href="#">HELP</a>
+            <a href="#">CONTACT</a>
+
+           </div> </div>
+
+        </section>
+    </body>
+</html>
